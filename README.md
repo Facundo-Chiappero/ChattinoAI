@@ -8,10 +8,10 @@ Este es un chat interactivo personalizado creado con **React** y **Tailwind CSS*
 
 - **Chat libre**: Los usuarios pueden hablar de cualquier tema o hacer preguntas a la IA.
 - **Emoticonos personalizados**: Los usuarios pueden enviar mensajes con emojis que muestran imágenes como stickers. Emoticonos:
-  - 👋: <img src="./flower.png" alt="Chattino con una flor" width="50"/>
-  - 🚀: <img src="./chattinoJetpack.png" alt="Chattino con un jetpack" width="50"/>
-  - ♥: <img src="./mamaLove.png" alt="Chattino abrazando a Raora Panthera" width="50"/>
-  - 😂: <img src="./raoLaugh.jpeg" alt="Raora Panthera riendose" width="50"/>
+  - 👋: <img src="./public/flower.png" alt="Chattino con una flor" width="50"/>
+  - 🚀: <img src="./public/chattinoJetpack.png" alt="Chattino con un jetpack" width="50"/>
+  - ♥: <img src="./public/mamaLove.png" alt="Chattino abrazando a Raora Panthera" width="50"/>
+  - 😂: <img src="./public/raoLaugh.jpeg" alt="Raora Panthera riendose" width="50"/>
 - **Conocimiento de Hololive English Justice**: La IA está entrenada para conocer detalles y responder sobre los talentos de Hololive English Justice.
 - **Interfaz sencilla**: Utiliza **React** y **Tailwind CSS** para una experiencia de usuario ágil y moderna.
 
@@ -45,10 +45,10 @@ This is a custom interactive chat created with **React** and **Tailwind CSS** th
 
 - **Free chat**: Users can talk about any topic or ask questions to the AI.
 - **Custom emojis**: Users can send messages with emojis that display images as stickers. Emojis:
-  - 👋: <img src="./flower.png" alt="Chattino with a flower" width="50"/>
-  - 🚀: <img src="./chattinoJetpack.png" alt="Chattino with a jetpack" width="50"/>
-  - ♥: <img src="./mamaLove.png" alt="Chattino hugging a Raora Panthera" width="50"/>
-  - 😂: <img src="./raoLaugh.jpeg" alt="Raora Panthera laughing" width="50"/>
+  - 👋: <img src="./public/flower.png" alt="Chattino with a flower" width="50"/>
+  - 🚀: <img src="./public/chattinoJetpack.png" alt="Chattino with a jetpack" width="50"/>
+  - ♥: <img src="./public/mamaLove.png" alt="Chattino hugging a Raora Panthera" width="50"/>
+  - 😂: <img src="./public/raoLaugh.jpeg" alt="Raora Panthera laughing" width="50"/>
 - **Knowledge of Hololive English Justice**: The AI is trained to know details and respond about the talents of Hololive English Justice.
 - **Simple interface**: Uses **React** and **Tailwind CSS** for a fast and modern user experience.
 
