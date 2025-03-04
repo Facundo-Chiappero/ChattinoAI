@@ -1,15 +1,17 @@
 ## ESPAÑOL:
 
+Puedes acceder al chat desde este enlace: [https://chattinoai.netlify.app/](https://chattinoai.netlify.app/)
+
 Este es un chat interactivo personalizado creado con **React** y **Tailwind CSS** que utiliza la **IA de Gemini-1.5-Flash** para ofrecer una experiencia conversacional fluida. El chat tiene conocimiento sobre los talentos de **Hololive English Justice** y permite a los usuarios interactuar libremente. Además, los usuarios pueden utilizar emoticonos como stickers dentro del chat para expresar emociones.
 
 ## Características
 
 - **Chat libre**: Los usuarios pueden hablar de cualquier tema o hacer preguntas a la IA.
 - **Emoticonos personalizados**: Los usuarios pueden enviar mensajes con emojis que muestran imágenes como stickers. Emoticonos:
-  - 👋: Imagen de Chattino con una flor.
-  - 🚀: Imagen de Chattino con un jetpack.
-  - ♥: Imagen de Chattino abrazando a Raora Panthera.
-  - 😂: Imagen de Raora Panthera riéndose.
+  - 👋: ![Chattino con una flor](./public/flower.png)
+  - 🚀: ![Chattino con un jetpack](./public/chattinoJetpack.png).
+  - ♥: ![Chattino abrazando a Raora Panthera](./public/mamaLove.png).
+  - 😂: ![Raora Panthera riendose](./public/raoLaugh.jpeg).
 - **Conocimiento de Hololive English Justice**: La IA está entrenada para conocer detalles y responder sobre los talentos de Hololive English Justice.
 - **Interfaz sencilla**: Utiliza **React** y **Tailwind CSS** para una experiencia de usuario ágil y moderna.
 
@@ -35,16 +37,18 @@ npm run dev
 
 ## ENGLISH:
 
+You can access the chat through this link: [https://chattinoai.netlify.app/](https://chattinoai.netlify.app/)
+
 This is a custom interactive chat created with **React** and **Tailwind CSS** that uses **Gemini-1.5-Flash AI** to provide a smooth conversational experience. The chat has knowledge about the talents of **Hololive English Justice** and allows users to interact freely. Additionally, users can use custom emojis as stickers within the chat to express emotions.
 
 ## Features
 
 - **Free chat**: Users can talk about any topic or ask questions to the AI.
 - **Custom emojis**: Users can send messages with emojis that display images as stickers. Emojis:
-  - 👋: Image of Chattino with a flower.
-  - 🚀: Image of Chattino with a jetpack.
-  - ♥: Image of Chattino hugging Raora Panthera.
-  - 😂: Image of Raora Panthera laughing.
+  - 👋: ![Chattino with a flower](./public/flower.png)
+  - 🚀: ![Chattino with a jetpack](./public/chattinoJetpack.png).
+  - ♥: ![Chattino hugging Raora Panthera](./public/mamaLove.png).
+  - 😂: ![Raora Panthera laughing](./public/raoLaugh.jpeg).
 - **Knowledge of Hololive English Justice**: The AI is trained to know details and respond about the talents of Hololive English Justice.
 - **Simple interface**: Uses **React** and **Tailwind CSS** for a fast and modern user experience.
 
