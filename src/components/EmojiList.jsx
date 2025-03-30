@@ -1,18 +1,17 @@
 import React from 'react';
-import WindowsSvg from '../assets/WindowsSvg';
-import PointSvg from '../assets/PointSvg';
+import { EMOJIS_TO_REPLACE, HOW_TO_USE_IMGS } from '../utils/constants';
+import { PointSvg, WindowsSvg } from './Icons';
 
 const EmojiList = () => (
   <div>
-    <div className="flex justify-around flex-wrap">
-      <p>list of images: &nbsp;</p>
-      <p>👋: Chattino flower &nbsp;</p>
-      <p>🚀: Chattino jetpack &nbsp;</p>
-      <p>♥: Chattino hug &nbsp;</p>
-      <p>😂: Raora laugh &nbsp;</p>
+    <div className="flex justify-center flex-wrap mt-4">
+      <p className='self-end'>list of images: &nbsp;</p>
+      {EMOJIS_TO_REPLACE.map(({ emoji, path }) => (
+        <p key={path} className='text-xl'>{emoji}: <img src={path} alt={path} /> &nbsp;</p>
+      ))}
     </div>
-    <p className="flex flex-wrap">
-      you can use the emojis by pressing&nbsp; <WindowsSvg />&nbsp;+<PointSvg /> (windows + .)
+    <p className="flex flex-wrap justify-center mb-4">
+      {HOW_TO_USE_IMGS.BODY}&nbsp; <WindowsSvg />&nbsp;+<PointSvg /> {HOW_TO_USE_IMGS.CLARIFICATION}
     </p>
   </div>
 );

@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import SendSvg from '../assets/SendSvg';
+import { BTN_BG } from '../utils/constants';
+import { SendSvg } from './Icons';
 
 const InputBox = ({ onSubmit }) => {
   const inputRef = useRef(null);
@@ -11,13 +12,15 @@ const InputBox = ({ onSubmit }) => {
     if (input.length === 0) return;
 
     inputRef.current.value = '';
-    inputRef.current.readOnly=true
-    btnRef.current.classList.add('bg-blue-950')
-    btnRef.current.classList.add('hover:bg-blue-950')
+    inputRef.current.readOnly = true
+    btnRef.current.classList.add(BTN_BG.NORMAL)
+    btnRef.current.classList.add(BTN_BG.HOVER)
+
     await onSubmit(input);
-    inputRef.current.readOnly=false
-    btnRef.current.classList.remove('bg-blue-950')
-    btnRef.current.classList.remove('hover:bg-blue-950')
+
+    inputRef.current.readOnly = false
+    btnRef.current.classList.remove(BTN_BG.NORMAL)
+    btnRef.current.classList.remove(BTN_BG.HOVER)
 
   };
 
