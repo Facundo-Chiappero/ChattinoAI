@@ -12,7 +12,7 @@ export const INITIAL_CHAT = [
   },
   {
     role: ROLES.BOT,
-    parts: [{ text: 'Chaora 👋, i\'m a chattino ai, what can i help with?' }],
+    parts: [{ text: 'Ciaora 👋, i\'m a chattino ai, what can i help with?' }],
   },
 ]
 
