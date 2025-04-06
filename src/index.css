@@ -41,6 +41,10 @@ img {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 1));
 }
 
+p{
+  text-wrap: pretty;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
