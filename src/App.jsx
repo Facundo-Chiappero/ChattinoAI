@@ -7,7 +7,7 @@ function App() {
   const { msgs, handleSubmit, messagesEndRef } = useChat();
 
   return (
-    <div className="w-[98vw] h-[100vh] bg-gray-800 text-white flex flex-col items-center justify-center main">
+    <div className="h-[100vh] bg-gray-800 text-white flex flex-col items-center justify-center main">
 
       <Header />
 
